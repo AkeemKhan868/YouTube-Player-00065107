@@ -1,0 +1,14 @@
+.player{
+    background-color: #272727;
+    padding: 1rem;
+}
+
+.playerchannelTitle{
+    font-size: 1.5rem;
+    color: #b40000;
+}
+
+.playerTitle{
+    font-size: 2rem;
+    font-weight: bold;
+}

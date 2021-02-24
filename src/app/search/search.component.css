@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    padding: 1rem;
+    background-color: #272727;
+}
+
+button{
+    background-color: #b40000;
+    color: white;
+}
+
+span{
+    color: #b40000;
+}
+
+input{
+    width: 30%;
+    background-color: #181818;
+    color: white;
+}

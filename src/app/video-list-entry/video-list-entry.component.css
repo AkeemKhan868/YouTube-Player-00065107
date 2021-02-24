@@ -1,0 +1,42 @@
+ul{
+    list-style: none;
+}
+
+.listItem{
+    background-color: #272727;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.listItem:hover{
+    color: #b40000;
+    transition: 0.5s;
+}
+
+.listTitle{
+    font-weight: bold;
+}
+
+.listChannelTitle{
+    color: #b40000;
+}
+
+.listItem:hover .listChannelTitle{
+    color: white;
+    transition: 0.5s;
+}
+
+.text{
+    padding: 0.5rem;
+    width: 100%;
+    display: inline-block;
+    background-color: #1b1b1b;
+}
+
+.img{
+    background-color: #1b1b1b;
+    padding: 0.5rem;
+}

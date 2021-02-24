@@ -1,0 +1,8 @@
+<div class="player">
+    <div *ngIf="video != null">
+        <youtube-player [width]="1160" [height]="650" videoId="{{video.id.videoId}}"></youtube-player>
+        <p class="playerTitle">{{video.snippet.title}}</p>
+        <p class="playerchannelTitle">{{video.snippet.channelTitle}}</p>
+        <p>{{video.snippet.description}}</p>
+    </div>
+</div>

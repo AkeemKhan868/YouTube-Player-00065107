@@ -1,0 +1,6 @@
+<header>
+    <!-- <img class="navigation__logo" src="images/logo.png" height="50"> -->
+    <span>YouTube</span>
+    <input type="text" [(ngModel)]="text" #search name="search">
+    <button (click)="updateText(search.value)">Search</button>
+</header>

@@ -1,0 +1,9 @@
+<ul>
+    <li class="listItem" *ngFor="let video of videoList" (click)="openVideo(video)"> 
+        <div class="img"><img src="{{video.snippet.thumbnails.default.url}}"></div> 
+        <div class="text">
+            <span class="listTitle">{{video.snippet.title}}</span><br>
+            <span class="listChannelTitle">{{video.snippet.channelTitle}}</span>
+        </div>
+    </li>
+</ul>
